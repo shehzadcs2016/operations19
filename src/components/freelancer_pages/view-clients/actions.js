@@ -1,0 +1,16 @@
+import { createAction } from "redux-actions"
+
+export const fetchClients = createAction("FETCH_CLIENTS")
+export const loadedclients = createAction("LOADED_CLIENTS")
+export const requestHold = createAction("REQUEST_HOLD")
+export const requestActivated = createAction("REQUEST_ACTIVATED")
+export const fetchholdRequests = createAction("FETCH_HOLD")
+export const loadholdRequests = createAction("LOAD_HOLD")
+export const fetchPausedByRequests = createAction("FETCH_PAUSED")
+export const loadPausedByRequests = createAction("LOAD_PAUSED")
+export const fetchViewRequests = createAction("FETCH_VIEW")
+export const loadViewRequests = createAction("LOAD_VIEW")
+export const loadSearchClients = createAction("LOAD_SEARCH_CLIENTS")
+export const freelancerClientsLoadChatMessages = createAction("FREELANCER_CLIENTS_LOAD_CHAT_MESSAGES")
+export const freelancerClientsChatMessagesLoaded = createAction("FREELANCER_CLIENTS_CHAT_MESSAGES_LOADED")
+export const freelancerClientsSendMessage = createAction("FREELANCER_CLIENTS_SEND_MESSAGE")
